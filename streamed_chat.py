@@ -7,12 +7,10 @@ client = Anthropic()
 model = "claude-sonnet-4-6"
 
 def print_user_message(content):
-    print(f"--- User ---\n{content}\n")
+    print(f"\n--- User ---\n{content}\n")
 
-def print_assistant_message(content):
-    print(f"--- Assistant ---\n{content}\n")
 
-class Chat:
+class StreamedChat:
     def __init__(self, system_prompt="", model=model):
         self.model = model
         self.client = Anthropic()
@@ -25,15 +23,19 @@ class Chat:
         return content
     
     def add_assistant_message(self, content):
-        print_assistant_message(content)
         self.messages.append({"role": "assistant", "content": content})
         return content
     
     def get_assistant_response(self):
-        response = self.client.messages.create(model=self.model, max_tokens=1000, messages=self.messages, system=self.system_prompt)
-        response_text = response.content[0].text
-        self.add_assistant_message(response_text)
-        return response_text
+        with self.client.messages.stream(model=self.model, max_tokens=1000, messages=self.messages, system=self.system_prompt) as stream:
+            print(f"\n--- Assistant ---\n")
+            for text in stream.text_stream:
+                print(text, end="")
+            final_response = stream.get_final_message()
+            self.add_assistant_message(final_response.content[0].text)
+        return final_response
+
+        
     
     def get_messages(self):
         return self.messages
