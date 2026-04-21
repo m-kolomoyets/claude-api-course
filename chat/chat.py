@@ -19,12 +19,12 @@ class Chat:
         self.messages = []
         self.system_prompt = system_prompt
     
-    def add_user_message(self, content):
+    def add_user_message(self, content=""):
         print_user_message(content)
         self.messages.append({"role": "user", "content": content})
         return content
     
-    def add_assistant_message(self, content):
+    def add_assistant_message(self, content=""):
         print_assistant_message(content)
         self.messages.append({"role": "assistant", "content": content})
         return content

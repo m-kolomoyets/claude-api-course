@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using a regular expression",
+    "format": "regex"
+  },
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that specifies the runtime, timeout, and environment variables",
+    "format": "json"
+  },
+  {
+    "task": "Write a Python function that takes an AWS S3 bucket name and returns a boolean indicating whether the bucket name follows AWS naming conventions",
+    "format": "python"
+  }
+]
