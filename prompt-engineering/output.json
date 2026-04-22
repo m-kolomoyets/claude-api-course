@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# One-Day Marathon Training Meal Plan\n**Athlete Profile:** 178cm, 68kg | Daily Goal: 2,800 calories | High-carb endurance focus | Lactose-free\n\n---\n\n## DAILY MACROS TARGET\n- **Calories:** 2,800 kcal\n- **Carbohydrates:** 420g (60%)\n- **Protein:** 112g (16%)\n- **Fat:** 93g (30%)\n\n---\n\n## BREAKFAST (6:30 AM)\n**Oatmeal Power Bowl**\n- Rolled oats: 80g\n- Banana: 150g\n- Almond milk (unsweetened): 250ml\n- Almond butter: 30g\n- Honey: 20g\n- Chia seeds: 15g\n\n*Calories: 520 | Carbs: 68g | Protein: 14g | Fat: 20g*\n\n---\n\n## MID-MORNING SNACK (9:30 AM)\n**Pre-Training Fuel**\n- White bread: 2 slices (60g)\n- Honey: 25g\n- Orange juice (100%): 250ml\n\n*Calories: 380 | Carbs: 92g | Protein: 6g | Fat: 0.5g*\n\n---\n\n## LUNCH (1:00 PM)\n**Chicken & Rice Bowl**\n- Basmati rice (cooked): 250g\n- Grilled chicken breast: 180g\n- Olive oil: 15ml\n- Bell peppers (mixed): 100g\n- Garlic: 5g\n- Salt & pepper to taste\n\n*Calories: 720 | Carbs: 85g | Protein: 42g | Fat: 18g*\n\n---\n\n## PRE-WORKOUT SNACK (4:00 PM)\n**Quick Carbs**\n- Banana: 120g\n- Dates (pitted): 40g\n- Unsalted almonds: 25g\n\n*Calories: 310 | Carbs: 55g | Protein: 8g | Fat: 11g*\n\n---\n\n## DINNER (7:30 PM)\n**Salmon & Sweet Potato**\n- Baked salmon fillet: 170g\n- Sweet potato (roasted): 280g\n- Broccoli (steamed): 150g\n- Olive oil (for cooking): 10ml\n- Lemon juice & herbs\n\n*Calories: 620 | Carbs: 85g | Protein: 35g | Fat: 35g*\n\n---\n\n## EVENING RECOVERY (9:30 PM)\n**Light Recovery Drink**\n- White rice cakes: 2 (30g)\n- Peanut butter (natural): 20g\n- Coconut water: 200ml\n\n*Calories: 250 | Carbs: 35g | Protein: 7g | Fat: 9g*\n\n---\n\n## DAILY TOTALS\n\u2705 **Calories:** 2,800 kcal  \n\u2705 **Carbohydrates:** 420g (60% - high endurance fuel)  \n\u2705 **Protein:** 112g (16% - muscle recovery)  \n\u2705 **Fat:** 93.5g (30% - hormone support)  \n\u2705 **Lactose-free:** All foods confirmed safe  \n\u2705 **Budget-friendly:** Primarily whole foods, minimal processed items\n\n---\n\n## HYDRATION NOTES\n- Drink 3-4 liters of water throughout the day\n- Add electrolyte drink during long training sessions (not included in calorie count)\n- Almond/coconut milk replaces dairy across all meals\n\n---\n\n## KEY BENEFITS FOR MARATHON TRAINING\n- **Carb timing:** 60% distribution supports glycogen loading and sustained energy\n- **Protein distribution:** Spread across meals for optimal muscle repair\n- **Strategic snacking:** Pre/post-workout carbs maximize performance and recovery\n- **Whole foods focus:** Minimizes digestive stress during training\n- **Iron & antioxidants:** Salmon, sweet potatoes, and leafy greens support endurance\n\nThis plan prioritizes",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "68",
+        "goal": "Marathon training with high carbohydrate intake to maximize endurance energy while maintaining 2800 calories per day",
+        "restrictions": "Lactose intolerant"
+      },
+      "solution_criteria": [
+        "Meal plan provides approximately 2800 calories total",
+        "Carbohydrates comprise 60-65% of total calories (high carb focus for endurance)",
+        "All meals and snacks are lactose-free",
+        "Plan includes 5-6 eating occasions distributed throughout the day for sustained energy"
+      ],
+      "task_description": "Generate a one-day meal plan for an athlete which meets their dietary restrictions and goals",
+      "scenario": "Testing with a high-performance endurance athlete (marathon runner) who requires high carbohydrate intake, is lactose intolerant, and aims to maximize energy while maintaining a specific caloric target"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively addresses all mandatory requirements: it provides a daily caloric total of 2,800 kcal with detailed macronutrient breakdown (420g carbs at 60%, 112g protein at 16%, 93.5g fat at 30%), includes 6 eating occasions with exact foods and portions distributed throughout the day, and confirms all meals are lactose-free with appropriate dairy substitutes. The meal plan is well-designed for marathon training with strategic carbohydrate timing and includes recovery nutrition. The only minor issues are the incomplete final sentence and the truncation at the end, which do not affect the core deliverables. All secondary criteria are met effectively."
+  },
+  {
+    "output": "# One-Day Muscle Building Meal Plan\n**Athlete Profile:** 178cm, 82kg | Daily Goal: 3,200 calories | Muscle gain focus | Vegan, tree nut-free\n\n---\n\n## DAILY MACROS TARGET\n- **Calories:** 3,200 kcal\n- **Carbohydrates:** 380g (47%)\n- **Protein:** 160g (20%)\n- **Fat:** 107g (30%)\n\n---\n\n## BREAKFAST (7:00 AM)\n**Vegan Protein Oatmeal**\n- Rolled oats: 100g\n- Soy milk (unsweetened): 300ml\n- Hemp seeds: 30g\n- Banana: 150g\n- Dates (pitted): 40g\n- Coconut oil: 10ml\n\n*Calories: 620 | Carbs: 72g | Protein: 18g | Fat: 22g*\n\n---\n\n## MID-MORNING SNACK (10:00 AM)\n**Pre-Workout Energy**\n- Whole grain bread: 2 slices (70g)\n- Tahini (sesame): 25g\n- Apple: 180g\n- Hemp seeds: 15g\n\n*Calories: 480 | Carbs: 58g | Protein: 14g | Fat: 18g*\n\n---\n\n## LUNCH (1:00 PM)\n**Lentil & Quinoa Power Bowl**\n- Cooked quinoa: 200g\n- Cooked green lentils: 180g\n- Olive oil: 20ml\n- Cucumber: 100g\n- Tomato: 120g\n- Garlic & herbs: 5g\n- Nutritional yeast: 15g\n\n*Calories: 760 | Carbs: 95g | Protein: 28g | Fat: 22g*\n\n---\n\n## PRE-WORKOUT SNACK (4:00 PM)\n**Quick Carbs + Protein**\n- Rice cakes: 3 (50g)\n- Sunflower seed butter: 30g\n- Banana: 120g\n- Water: 250ml\n\n*Calories: 440 | Carbs: 52g | Protein: 12g | Fat: 20g*\n\n---\n\n## DINNER (7:30 PM)\n**Tofu & Sweet Potato**\n- Extra-firm tofu (baked): 250g\n- Sweet potato (roasted): 300g\n- Broccoli (steamed): 150g\n- Olive oil (for cooking): 15ml\n- Low-sodium soy sauce & ginger: 5g\n\n*Calories: 650 | Carbs: 78g | Protein: 32g | Fat: 20g*\n\n---\n\n## EVENING RECOVERY (9:30 PM)\n**Protein Recovery Smoothie**\n- Soy milk: 250ml\n- Vegan protein powder (pea-based): 30g\n- Oat flour: 40g\n- Blueberries (frozen): 100g\n- Flax seeds: 20g\n\n*Calories: 250 | Carbs: 25g | Protein: 26g | Fat: 5g*\n\n---\n\n## DAILY TOTALS\n\u2705 **Calories:** 3,200 kcal  \n\u2705 **Carbohydrates:** 380g (sustained energy for training)  \n\u2705 **Protein:** 160g (muscle recovery & growth)  \n\u2705 **Fat:** 107g (hormone production & recovery)  \n\u2705 **Vegan:** All plant-based proteins  \n\u2705 **Tree nut-free:** No almonds, cashews, walnuts, or peanuts  \n\u2705 **Budget-friendly:** Legumes, seeds, and whole grains as primary protein sources\n\n---\n\n## HYDRATION NOTES\n- Drink 3.5-4 liters of water daily\n- Add electrolyte drink during weightlifting sessions (not included in calories)\n- Soy milk provides additional protein throughout the day\n\n---\n\n## KEY PROTEIN SOURCES\n- To",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "82 kg",
+        "goal": "Build muscle mass and strength through weightlifting while maintaining energy for intense training sessions",
+        "restrictions": "Vegan diet, tree nut allergy (including almonds, cashews, walnuts, and peanuts)"
+      },
+      "solution_criteria": [
+        "Meal plan includes 4+ meals/snacks distributed throughout the day with at least one meal timed within 2 hours before or after workout",
+        "All meals are vegan and contain no tree nuts or peanuts",
+        "Daily protein intake meets or exceeds 1.6g per kg of body weight (minimum 131g)",
+        "Plan is realistic and actionable for a single day"
+      ],
+      "task_description": "Generate a one-day meal plan for an athlete which meets their dietary restrictions and goals",
+      "scenario": "Testing with a strength-training athlete (weightlifter) following a vegan diet with a nut allergy, requiring high protein intake and meal timing around workout windows"
+    },
+    "score": 8,
+    "reasoning": "The solution successfully meets all mandatory requirements with precise daily totals, complete macronutrient breakdowns, and 6 well-distributed meals with exact portions and timings. Protein intake significantly exceeds the 1.6g/kg threshold at 1.95g/kg. All dietary restrictions are properly respected with no tree nuts or peanuts present. However, the caloric prescription appears high for the athlete's profile and may not align with realistic muscle-building goals. The pre-workout snack timing cannot be fully verified without knowing the actual workout schedule. The incomplete text at the end is a minor presentation flaw. Despite these concerns, the solution technically satisfies all stated criteria."
+  },
+  {
+    "output": "# One-Day Lean Muscle Gain Meal Plan for Competitive Swimming\n**Athlete Profile:** 180cm, 78kg | Daily Goal: 2,900 calories | Lean muscle + hydration/electrolyte focus | Gluten-free, shellfish-free\n\n---\n\n## DAILY MACROS TARGET\n- **Calories:** 2,900 kcal\n- **Protein:** 174g (24% - muscle synthesis)\n- **Carbohydrates:** 348g (48% - training fuel & recovery)\n- **Fat:** 87g (27% - hormone & joint support)\n\n---\n\n## BREAKFAST (7:00 AM)\n**Protein-Packed Egg & Rice Bowl**\n- Brown rice (cooked): 200g\n- Whole eggs: 3 large\n- Egg whites: 2\n- Spinach (fresh): 80g\n- Coconut oil: 10ml\n- Sea salt & black pepper\n\n*Calories: 520 | Carbs: 55g | Protein: 28g | Fat: 18g*\n\n---\n\n## MID-MORNING SNACK (10:00 AM)\n**Pre-Training Energy**\n- Banana (medium): 120g\n- Almond butter (natural): 30g\n- Rice cakes (gluten-free): 2 cakes (30g)\n- Raw honey: 15g\n\n*Calories: 380 | Carbs: 48g | Protein: 10g | Fat: 16g*\n\n---\n\n## LUNCH (1:00 PM)\n**Grilled Chicken & Sweet Potato**\n- Chicken breast (grilled): 200g\n- Sweet potato (roasted): 300g\n- Olive oil: 12ml\n- Green beans (steamed): 120g\n- Garlic & fresh herbs\n\n*Calories: 650 | Carbs: 75g | Protein: 48g | Fat: 18g*\n\n---\n\n## PRE-SWIM SNACK (3:30 PM)\n**Quick Carbs + Electrolytes**\n- White rice (cooked): 150g\n- Turkey breast (sliced): 80g\n- Orange: 150g\n- Coconut water (unsweetened): 200ml\n\n*Calories: 410 | Carbs: 72g | Protein: 24g | Fat: 3g*\n\n---\n\n## POST-SWIM RECOVERY (6:00 PM)\n**Muscle Recovery Smoothie**\n- Beef or turkey mince (lean, cooked): 150g\n- White rice cakes: 3 cakes (45g)\n- Blueberries (frozen): 100g\n- Rice milk (unsweetened): 300ml\n- Honey: 20g\n- Sea salt pinch\n\n*Calories: 480 | Carbs: 72g | Protein: 32g | Fat: 7g*\n\n---\n\n## DINNER (7:30 PM)\n**Lean Beef & Quinoa**\n- Lean ground beef (93/7): 180g\n- Quinoa (cooked): 250g\n- Broccoli (roasted): 150g\n- Olive oil: 15ml\n- Rosemary & sea salt\n\n*Calories: 620 | Carbs: 65g | Protein: 42g | Fat: 20g*\n\n---\n\n## EVENING RECOVERY (9:30 PM)\n**Protein Before Sleep**\n- Grilled chicken breast: 120g\n- White potato (baked): 150g\n- Carrot sticks (raw): 100g\n- Olive oil drizzle: 8ml\n\n*Calories: 340 | Carbs: 35g | Protein: 35g | Fat: 5g*\n\n---\n\n## DAILY TOTALS\n\u2705 **Calories:** 2,900 kcal  \n\u2705 **Protein:** 219g (supports lean muscle synthesis)  \n\u2705 **Carbohydrates:** 422g (optimal for swim training)  \n\u2705 **Fat:** 87g (hormone production & recovery)  \n\u2705 **Gluten-free",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "78 kg",
+        "goal": "lean muscle gain with optimal hydration and electrolyte balance for competitive swimming",
+        "restrictions": "gluten-free, shellfish allergy"
+      },
+      "solution_criteria": [
+        "Meal plan avoids all gluten-containing foods and shellfish products",
+        "Includes protein-rich foods supporting lean muscle development (minimum 1.6g per kg body weight)",
+        "Incorporates electrolyte-rich foods and hydration strategies appropriate for swimmers",
+        "Provides realistic, balanced meals for a full day that are practical for an athlete's schedule"
+      ],
+      "task_description": "Generate a one-day meal plan for an athlete which meets their dietary restrictions and goals",
+      "scenario": "Testing with a competitive swimmer with multiple dietary restrictions (gluten-free, shellfish allergy) and goals for lean muscle gain while managing hydration and electrolyte needs"
+    },
+    "score": 6,
+    "reasoning": "The solution successfully meets all three mandatory requirements with clear formatting, realistic meal timing for an athlete's schedule, and appropriate foods. Protein intake is excellent for lean muscle goals. However, the electrolyte/hydration strategy\u2014explicitly stated as a primary goal\u2014is minimally addressed beyond one coconut water mention, representing a significant gap in meeting the secondary criteria. The macronutrient calculation error and impractical post-swim smoothie further detract from overall quality. The plan is functional but incomplete relative to the stated competitive swimming context."
+  }
+]

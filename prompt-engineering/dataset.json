@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "68",
+      "goal": "Marathon training with high carbohydrate intake to maximize endurance energy while maintaining 2800 calories per day",
+      "restrictions": "Lactose intolerant"
+    },
+    "solution_criteria": [
+      "Meal plan provides approximately 2800 calories total",
+      "Carbohydrates comprise 60-65% of total calories (high carb focus for endurance)",
+      "All meals and snacks are lactose-free",
+      "Plan includes 5-6 eating occasions distributed throughout the day for sustained energy"
+    ],
+    "task_description": "Generate a one-day meal plan for an athlete which meets their dietary restrictions and goals",
+    "scenario": "Testing with a high-performance endurance athlete (marathon runner) who requires high carbohydrate intake, is lactose intolerant, and aims to maximize energy while maintaining a specific caloric target"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "82 kg",
+      "goal": "Build muscle mass and strength through weightlifting while maintaining energy for intense training sessions",
+      "restrictions": "Vegan diet, tree nut allergy (including almonds, cashews, walnuts, and peanuts)"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4+ meals/snacks distributed throughout the day with at least one meal timed within 2 hours before or after workout",
+      "All meals are vegan and contain no tree nuts or peanuts",
+      "Daily protein intake meets or exceeds 1.6g per kg of body weight (minimum 131g)",
+      "Plan is realistic and actionable for a single day"
+    ],
+    "task_description": "Generate a one-day meal plan for an athlete which meets their dietary restrictions and goals",
+    "scenario": "Testing with a strength-training athlete (weightlifter) following a vegan diet with a nut allergy, requiring high protein intake and meal timing around workout windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "78 kg",
+      "goal": "lean muscle gain with optimal hydration and electrolyte balance for competitive swimming",
+      "restrictions": "gluten-free, shellfish allergy"
+    },
+    "solution_criteria": [
+      "Meal plan avoids all gluten-containing foods and shellfish products",
+      "Includes protein-rich foods supporting lean muscle development (minimum 1.6g per kg body weight)",
+      "Incorporates electrolyte-rich foods and hydration strategies appropriate for swimmers",
+      "Provides realistic, balanced meals for a full day that are practical for an athlete's schedule"
+    ],
+    "task_description": "Generate a one-day meal plan for an athlete which meets their dietary restrictions and goals",
+    "scenario": "Testing with a competitive swimmer with multiple dietary restrictions (gluten-free, shellfish allergy) and goals for lean muscle gain while managing hydration and electrolyte needs"
+  }
+]
